@@ -23,6 +23,12 @@ b = 3
 txt = "@"
 print(a*txt*b)
 
+# Typecasting in python:-
+
+var = "31.2"
+print(type(var))
+
+var2 = float(var)
+print(type(var2))
 
  
-
