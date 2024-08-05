@@ -29,6 +29,15 @@ space = "   hello   "
 print(space)
 print(space.strip())  # Output: "hello"
 
+chai_type = "masala"
+quantity = 2
+order = "I ordered {} cups of {} chai"
+
+print(order.format(quantity, chai_type))
+print(f"i ordered {quantity} cups of {chai_type}")
+
+chai_variety = ["lemlon", "masala", "ginger"]
+ 
 
 # Important note:- after applying all these function on the string which is firstName won't be change because strings are imutable in python!
 
