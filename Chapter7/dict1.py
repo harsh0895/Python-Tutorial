@@ -18,6 +18,6 @@ print(marks.values())
 marks.update({"harry": 99})
 print(marks)
 
-marks.get("harry")
-marks["harry"]
+marks.get("harry") # print none if the key would not match
+marks["harry"] # give error if the key doesn't exists
 print(marks)
