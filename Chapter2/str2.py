@@ -41,3 +41,11 @@ chai_variety = ["lemlon", "masala", "ginger"]
 
 # Important note:- after applying all these function on the string which is firstName won't be change because strings are imutable in python!
 
+
+s1 = 'or'
+s2 = 'world'
+
+if ( s2.find(s1) ):
+    print(True)
+else:
+    print(False)
