@@ -31,4 +31,3 @@ print(type(var))
 var2 = float(var)
 print(type(var2))
 
- 
